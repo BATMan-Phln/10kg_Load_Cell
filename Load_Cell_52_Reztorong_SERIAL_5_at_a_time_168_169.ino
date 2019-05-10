@@ -121,9 +121,9 @@ void start_scale(void) {
               lcd.print(temp_current_units);
               lcd.setCursor(1,1);
               lcd.print(scale.get_units(3)*unit_conversion, decimal_place);  // Display the average of 3 scale value reading
-        /*      Serial.print(temp_current_units);
+              Serial.print(temp_current_units);
               Serial.print(": ");
-              Serial.println(scale.get_units(3)*unit_conversion, decimal_place);  // Display the average of 3 scale value reading
+        /*              Serial.println(scale.get_units(3)*unit_conversion, decimal_place);  // Display the average of 3 scale value reading
    THIS ONE KILLS IT!
         */                  
 }
